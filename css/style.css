@@ -129,34 +129,300 @@ main{
     letter-spacing: .5px;
 }
 
+footer
+{
+    background-color: #001d38;
+}
 .footer__con
 {
     display: inline;
-    padding: 20px;
-    
 }
-.footer__nav:nth-child(1) 
+.footer__MorInf
 {
     display: flex;
-    gap: 40px;
-    font-size: 40px;
-    list-style: none;
-    font-family: 'Montserrat';
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+    justify-content: space-evenly;
+    padding: 70px 15px;
 }
-.footer__nav:nth-child(2)
+
+
+
+
+
+
+
+.MorInf__Logo
+{
+    display: inline;
+    width: 240px;
+}
+.footer-Logo
 {
     display: flex;
-    gap: 40px;
-    font-size: 40px;
+    gap: 3px;
     list-style: none;
-    font-family: 'Montserrat';
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
 }
-.footer__nav:nth-child(1) a{
-    color: black;
+.Logos-img img
+{
+    width:40px;
+    height: 40px;
+}
+.Logos-name
+{
+    font-size: 35px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.Subscribe__txt
+{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.footer-sources
+{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.footer-sources img 
+{
+    width: 25px;
+    height: 25px;
+}
+.footer-adress img 
+{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+.MorInf__RatData
+{
+    display: inline;
+    width: 240px;
+}
+.footer-rating .footer-data
+{
+    display: inline;
+}
+.Rating-info 
+{
+    display: inline;
+    list-style: none;
+}
+.Data-info 
+{
+    display: inline;
+    list-style: none;
+}
+
+
+
+
+
+.MorInf__Solution
+{
+    display: inline;
+    width: 240px;
+}
+.Solution-info 
+{
+    list-style: none;
+}
+
+
+
+.MorInf__Resources
+{
+    display: inline;
+    width: 240px;
+}
+.Resources-info
+{
+    list-style: none;
+}
+
+
+
+.MorInf__About
+{
+    display: inline;
+    width: 240px;
+}
+.About-info 
+{
+    list-style: none;
+}
+
+.Rating 
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.About
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+.Solution
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+.Resources
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+.Data
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+
+
+
+.footer-adress a{
+    color: #AEB5B5;
+}
+
+.footer-adress a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+
+
+.Subscribe__txt
+{
+    color: #AEB5B5;
+}
+.Rating-info a{
+    color: #AEB5B5;
+}
+.Rating-info a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+
+.Data-info a{
+    color: #AEB5B5;
+}
+.Data-info a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+
+.Solution-info a
+{
+    color: #AEB5B5;
+}
+.Solution-info a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+
+
+
+.Resources-info a
+{
+    color: #AEB5B5;
+}
+.Resources-info a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+.About-info a{
+    color: #AEB5B5;
+}
+
+.About-info a:hover
+{
+    color:white;
+    opacity: 0.9;
+}
+
+
+
+.footer-Logo
+{
+    padding: 10px 0;
+}
+.Subscribe__txt
+{
+    padding: 10px 0;
+}
+.footer-sources
+{
+    padding: 10px 0;
+}
+.footer-adress
+{
+    padding: 10px 0;
+}
+
+.Rating
+{
+    padding: 10px 0;
+}
+.Rating-info
+{
+    padding: 10px 0;
+    margin-bottom: 3px;
+}
+.footer-rating
+{
+    margin-bottom: 10px;
+}
+.Data
+{
+    padding-bottom: 10px;
+}
+.Data-info li
+{
+    margin-bottom: 3px;
+}
+.Solution
+{
+    padding-bottom: 10px;
+}
+.Solution-info li
+{
+    margin-bottom: 3px
+}
+.About
+{
+    padding-bottom: 10px;
+}
+.About-info li
+{
+    margin-bottom: 3px
+}
+.Resources
+{
+    padding-bottom: 10px;
+}
+.Resources-info li
+{
+    margin-bottom: 3px
 }
