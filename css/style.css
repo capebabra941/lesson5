@@ -617,4 +617,9 @@ footer
     {
         padding: 8px;
     }
+    .header-logo
+    {
+        gap: 1px;
+        padding-left: 5px;
+    }
 }
