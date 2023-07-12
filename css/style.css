@@ -153,7 +153,7 @@ footer
 .MorInf__Logo
 {
     display: inline;
-    width: 240px;
+    width: 300px;
 }
 .footer-Logo
 {
@@ -425,4 +425,196 @@ footer
 .Resources-info li
 {
     margin-bottom: 3px
+}
+
+
+
+
+/*Адапьтвка*/
+@media (max-width: 992px) 
+{
+    .side-bar
+    {
+        width: 300px;
+        padding: 5px;
+        background-color: #f2f2f2;
+    }
+    .content
+    {
+        width: calc(100% - 320px);
+
+    }
+    .side__card h4 {
+
+        font-size: 16px;
+    }
+    .side__card p
+    {
+        font-size: 14px;
+    }
+    .content h2 {
+        font-size: 18px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .header-logo img {
+        width: 28px;
+        height: 28px;
+    }
+    .header-logo p 
+    {
+        font-size: 16px;
+    }
+    .header__nav  a
+    {
+        font-size: 16px;
+    }
+    .main__con {
+        padding: 10px 20px;
+    }
+    .content h2 
+    {
+       margin-bottom: 2px;
+       line-height: 20px;
+    }
+    .footer__MorInf 
+    {
+        flex-wrap: wrap;
+    }
+    .Logos-name {
+        font-size: 20px;
+    }
+    .Logos-img img 
+    {
+        width: 25px;
+        height: 25px;
+    }
+    .Subscribe__txt
+    {
+        font-size: 16px;
+    }
+    .footer-sources
+    {
+        padding: 4px 0;
+    }
+    .footer-sources img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-adress a
+    {
+        font-size: 14px;
+    }
+    .footer-adress img
+    {
+        width: 15px;
+        height: 15px;
+        padding-right: 3px;
+    }
+    .footer-rating
+    {
+        margin-bottom: 5px;
+    }
+    .Rating
+    {
+        font-size: 20px;
+    }
+    .Rating-info a
+    {
+        font-size: 14px;
+    }
+    .Data
+    {
+        font-size: 20px;
+    }
+    .Data-info a
+    {
+        font-size: 14px;
+    }
+    .Data-info
+    {
+        margin-bottom: 5px;
+    }
+    .Solution
+    {
+        font-size: 20px;
+    }
+    .Solution-info a
+    {
+        font-size: 14px;
+    }
+    .Solution-info
+    {
+        margin-bottom: 5px;
+    }
+    .Resources
+    {
+        font-size: 20px;
+    }
+    .Resources-info a
+    {
+        font-size: 14px;
+    }
+    .About
+    {
+        font-size: 20px;
+    }
+    .About-info a
+    {
+        font-size: 14px;
+    }
+    .footer__MorInf
+    {
+        padding: 15px 20px;
+        justify-content: flex-start;
+        gap: 10px;
+
+    }
+    
+    
+    
+}
+@media (max-width: 576px) 
+{
+    .main__con 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content
+    {
+        width: 100%;
+    }
+    .side-bar
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+    }
+    .side__card
+    {
+        width: 220px;
+    }
+    .header-logo img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .header-logo p
+    {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .header__nav a
+    {
+        font-size: 14px;
+    }
+    .main__con
+    {
+        padding: 8px;
+    }
 }
