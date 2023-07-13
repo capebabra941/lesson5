@@ -599,7 +599,7 @@ footer
     
     
 }
-@media (max-width: 395px) 
+@media (max-width: 390px) 
 
 {
     .header__con
@@ -702,4 +702,5 @@ footer
     {
         width: 235px;
     }
+    
 }
