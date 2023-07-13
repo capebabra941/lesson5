@@ -23,25 +23,31 @@
     src: url(/fonts/Montserrat-Bold.ttf);
     font-weight: 700;
 }
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat';
     box-sizing: border-box;
 }
-a{
+
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+a
+{
     text-decoration: none;
 }
 .header{
     width: 100%;
     background-color: #001d38;
 }
-.container{
-    max-width: 1200px;
+.container {
     width: 100%;
     margin: auto;
-    padding: 0 15px;
-}
+    box-sizing: border-box;
+  }
 .header-logo{
     display: flex;
     align-items: center;
@@ -56,9 +62,13 @@ a{
     text-transform: uppercase;
     font-size: 25px;
 }
+.header__con.container {
+  padding-right: 0;
+  padding-left: 0;
+}
 .header__con{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 15px;
 }
@@ -72,7 +82,12 @@ a{
     color: white;
     font-size: 20px;
 }
-main{
+
+
+
+
+
+.main{
     width: 100%;
 }
 .main__con{
@@ -128,6 +143,14 @@ main{
     line-height: 25px;
     letter-spacing: .5px;
 }
+
+
+
+
+
+
+
+
 
 footer
 {
@@ -576,9 +599,33 @@ footer
     
     
 }
-@media (max-width: 576px) 
+@media (max-width: 395px) 
+
 {
-    .main__con 
+    .header__con
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header-logo img 
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .header-logo p 
+    {
+        font-size: 12px;
+    }
+    .header-logo
+    {
+        gap: 2px;
+    }
+    .header__nav a
+    {
+        font-size:12px ;
+        justify-content:space-evenly;
+    }
+    .main__con
     {
         display: flex;
         flex-direction: column-reverse;
@@ -586,40 +633,22 @@ footer
     .content
     {
         width: 100%;
+        
+    }
+    .main__con
+    {
+        padding: 5px 8px;
     }
     .side-bar
     {
         display: flex;
-        flex-wrap: wrap;
         width: 100%;
+        flex-wrap: wrap;
         flex-direction: row;
     }
     .side__card
     {
-        width: 220px;
+        width: 170px;
     }
-    .header-logo img
-    {
-        width: 20px;
-        height: 20px;
-    }
-    .header-logo p
-    {
-        font-size: 12px;
-        margin: 0;
-        padding: 0;
-    }
-    .header__nav a
-    {
-        font-size: 14px;
-    }
-    .main__con
-    {
-        padding: 8px;
-    }
-    .header-logo
-    {
-        gap: 1px;
-        padding-left: 5px;
-    }
+    
 }
